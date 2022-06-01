@@ -8,9 +8,9 @@ public class Test {
 			ArrayQueue<Student> q = new ArrayQueue<>();
 	 
 			q.offer(new Student("어렵네", 92));
-			q.offer(new Student("큐라는것", 72));
+			q.offer(new Student("큐라는", 72));
 			q.offer(new Student("아오씨", 98));
-			q.offer(new Student("머리아파", 51));
+			q.offer(new Student("머리", 51));
 			
 			q.sort(customComp);	// Comparator을 넘겨준다. 
 			
